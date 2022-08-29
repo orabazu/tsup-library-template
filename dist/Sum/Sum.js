@@ -1,0 +1,1 @@
+import{a}from"../chunk-B4UGIGJL.js";export{a as sum};

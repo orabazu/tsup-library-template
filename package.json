@@ -1,6 +1,6 @@
 {
   "name": "tsup-libary-template",
-  "version": "0.0.2-alpha.0",
+  "version": "0.0.1",
   "description": "A template for building a library with tsup",
   "author": "ozerorhun@gmail.com",
   "license": "MIT",
@@ -26,11 +26,15 @@
     "rimraf": "^3.0.2",
     "tsup": "^6.0.1"
   },
-  "main": "lib/index.cjs",
+  "main": "dist/index.cjs",
   "module": "lib/index.js",
   "types": "lib/index.d.ts",
   "dependencies": {
     "typescript": "^4.7.2"
   },
-  "type": "module"
+  "type": "module",
+  "files": [
+    "lib",
+    "dist"
+  ]
 }

@@ -1,6 +1,9 @@
-declare const _default: {
-    sum: (a: number, b: number) => number;
-    log: (...data: any[]) => void;
-};
+export { sum } from './Sum/Sum.js';
 
-export { _default as default };
+declare const sampleJson: {
+    id: string;
+    first_name: string;
+    last_name: string;
+}[];
+
+export { sampleJson };

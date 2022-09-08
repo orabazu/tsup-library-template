@@ -1,1 +1,1 @@
-"use strict";Object.defineProperty(exports, "__esModule", {value: true});require('./chunk-X5STHEFE.cjs');var _chunk7RI624WZcjs = require('./chunk-7RI624WZ.cjs');var l=console.log,e= exports.default ={sum:_chunk7RI624WZcjs.a,log:l};exports.default = e;
+"use strict";Object.defineProperty(exports, "__esModule", {value: true});require('./chunk-X5STHEFE.cjs');var _chunk7RI624WZcjs = require('./chunk-7RI624WZ.cjs');var f=[{id:"f5e7457f-467d-4e37-9652-f2fb1b51c712",first_name:"John",last_name:"Doe"}];exports.sampleJson = f; exports.sum = _chunk7RI624WZcjs.a;

@@ -1,8 +1,11 @@
 import { sum } from './Sum';
 
-const log = console.log;
+const sampleJson = [
+  {
+    id: 'f5e7457f-467d-4e37-9652-f2fb1b51c712',
+    first_name: 'John',
+    last_name: 'Doe',
+  },
+];
 
-export default {
-  sum,
-  log,
-};
+export { sampleJson, sum };
